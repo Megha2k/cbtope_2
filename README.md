@@ -20,7 +20,7 @@ Download standalone zip file from https://webs.iiitd.edu.in/raghava/cbtope2/stan
    ```
 
    optional arguments:
-     -i INPUT, --input INPUT
+      -i INPUT, --input INPUT
                            Input: protein or peptide sequence(s) in FASTA format
                            or single sequence per line in single letter code
      *Input File:* It allow users to provide input in the FASTA format.
