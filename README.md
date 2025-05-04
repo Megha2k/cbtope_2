@@ -19,19 +19,21 @@ Download standalone zip file from https://webs.iiitd.edu.in/raghava/cbtope2/stan
    python standalone.py [-i INPUT] [filename.fasta] [-t probability threshold = 0.5] [-m {1,2}]
    ```
 
-   optional arguments:
-      -i INPUT, --input INPUT
-                           Input: protein or peptide sequence(s) in FASTA format
-                           or single sequence per line in single letter code
-     *Input File:* It allow users to provide input in the FASTA format.
+   **Optional arguments:**
 
-     -t THRESHOLD, --threshold THRESHOLD
-                           Threshold: Value between 0 to 1, most preferably 0.5
-     *Threshold:* User should provide threshold between 0 and 1, by default its 0.5.
+- `-i INPUT`, `--input INPUT`  
+  **Input:** Protein or peptide sequence(s) in FASTA format or a single sequence per line in single-letter code.  
+  *Input File:* Allows users to provide input in FASTA format.
 
-     -m {1,2}, --model {1,2}
-                        Model Type: Model Type: 1: PSSM based, 2: RSA + PSSM ensemble model (Best Model).
-     *Model *: User is allowed to choose between two different models, such as 1 for PSSM based and 2 for RSA + PSSM ensemble 2.
+- `-t THRESHOLD`, `--threshold THRESHOLD`  
+  **Threshold:** Value between 0 to 1 (default is 0.5).  
+  *Threshold:* User should provide a threshold between 0 and 1; by default, it is 0.5.
+
+- `-m {1,2}`, `--model {1,2}`  
+  **Model Type:**  
+  `1`: PSSM-based model  
+  `2`: RSA + PSSM ensemble model (Best Model).  
+  *Model:* User can choose between two models: `1` for PSSM-based, and `2` for RSA + PSSM ensemble.
 
 ### OR
 
