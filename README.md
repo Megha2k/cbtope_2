@@ -5,7 +5,8 @@ This repository contains the standalone code for CBTOPE2 prediction tool. CBTOPE
 ## Installation (dependencies)
 
 To install dependency - SPOT-1D-Single, use following command in the same order:
-1. ``` git clone https://github.com/jas-preet/SPOT-1D-Single.git
+1. ```bash
+   git clone https://github.com/jas-preet/SPOT-1D-Single.git
 2. ```cd SPOT-1D-Single
 
 To download the model check points:
