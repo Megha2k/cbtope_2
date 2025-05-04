@@ -16,8 +16,11 @@ Download standalone zip file from https://webs.iiitd.edu.in/raghava/cbtope2/stan
    
 3. **Execute**:
    ```bash
-   python standalone.py -i [filename.fasta] -t [probability threshold = 0.5] -m [1,2]
+   python standalone.py [-i INPUT] [filename.fasta] [-t probability threshold = 0.5] [-m {1,2}]
    ```
+   -m {1,2}, --model {1,2}
+   Model 1: PSSM based
+   Model 2: PSSM + RSA based
    
 ### OR
 
@@ -74,7 +77,10 @@ To install the dependency - SPOT-1D-Single, use the following commands **in the 
 
 *(Refer to https://github.com/jas-preet/SPOT-1D-Single/tree/master for details.)*
 
-9. Install CBTOPE2 package:
+9. Install PSSM dependency:
+    You can install system-specific ncbi psi-blast files from https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/
+
+10. Install CBTOPE2 package:
     ```bash
     pip install cbtope-2
     ```
