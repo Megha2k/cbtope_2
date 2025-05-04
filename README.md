@@ -10,7 +10,7 @@ To install dependency - SPOT-1D-Single, use following command in the same order:
 2. ```bash
    cd SPOT-1D-Single
 
-To download the model check points:
+To download the model check points:  
 3. ```bash
    wget https://apisz.sparks-lab.org:8443/downloads/Resource/Protein/2_Protein_local_structure_prediction/jits.tar.xz
 4. ```bash
