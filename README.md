@@ -10,15 +10,15 @@ To install dependency - SPOT-1D-Single, use following command in the same order:
 2. ```bash
    cd SPOT-1D-Single
 
-To download the model check points:<br>
+To download the model check points:  
 3. ```bash
-   wget https://apisz.sparks-lab.org:8443/downloads/Resource/Protein/2_Protein_local_structure_prediction/jits.tar.xz<br>
+   wget https://apisz.sparks-lab.org:8443/downloads/Resource/Protein/2_Protein_local_structure_prediction/jits.tar.xz  
 4. ```bash
    tar -xvf jits.tar.xz
 
-To install dependencies and create conda environment:<br>
+To install dependencies and create conda environment:  
 5. ```bash
-   conda create -n cbtope2_env python=3.7<br>
+   conda create -n cbtope2_env python=3.7  
 6. ```bash
    conda activate cbtope2_env
 
