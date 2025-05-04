@@ -4,6 +4,25 @@ This repository contains the standalone code for CBTOPE2 prediction tool. CBTOPE
 
 ## Installation (dependencies)
 
+## 1. Standalone
+
+Download standalone zip file from https://webs.iiitd.edu.in/raghava/cbtope2/standalone.html
+
+1. Unzip the zip file you just downloaded
+   
+2. ```bash
+   pip install Bio joblib sklearn openpyxl
+   ```
+   
+3. **Execute**:
+   ```bash
+   python standalone.py -i [filename.fasta] -t [probability threshold = 0.5] -m [1,2]
+   ```
+   
+### OR
+
+## 2. PIP package
+
 To install the dependency - SPOT-1D-Single, use the following commands **in the same order:**
 
 1. Clone the repository:
@@ -55,19 +74,7 @@ To install the dependency - SPOT-1D-Single, use the following commands **in the 
 
 *(Refer to https://github.com/jas-preet/SPOT-1D-Single/tree/master for details.)*
 
----
-
-## Installation (package)
-
-9. Install CBTOPE2:
+9. Install CBTOPE2 package:
     ```bash
     pip install cbtope-2
     ```
-
----
-
-## Execute
-
-To run the CBTOPE2 package:
-```bash
-python3 -m cbtope_2.standalone -i [filename.fasta] -t [probability threshold = 0.5] -m [1,2]
